@@ -1,0 +1,16 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#06080C"/>
+  <rect width="800" height="600" fill="url(#grid)" opacity=".24"/>
+  <circle cx="650" cy="120" r="220" fill="#37FF8B" opacity=".16"/>
+  <circle cx="156" cy="480" r="230" fill="#FF007F" opacity=".18"/>
+  <rect x="232" y="120" width="336" height="362" rx="34" fill="url(#plate)" stroke="white" stroke-opacity=".16" stroke-width="6"/>
+  <rect x="286" y="196" width="128" height="128" rx="14" fill="#05070A"/>
+  <path d="M306 216h28v28h-28v-28Zm60 0h28v28h-28v-28Zm-60 60h28v28h-28v-28Zm60 60h28v28h-28v-28Zm-30-30h28v28h-28v-28Z" fill="#FFFFFF"/>
+  <path d="M448 222h68M448 272h52M286 382h228" stroke="url(#brand)" stroke-width="18" stroke-linecap="round"/>
+  <text x="400" y="540" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="800">Placa Pix Personalizada</text>
+  <defs>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M46 0H0v46" stroke="white" stroke-opacity=".18"/></pattern>
+    <linearGradient id="plate" x1="232" x2="568" y1="120" y2="482" gradientUnits="userSpaceOnUse"><stop stop-color="#18212C"/><stop offset="1" stop-color="#0F151E"/></linearGradient>
+    <linearGradient id="brand" x1="286" x2="516" y1="382" y2="382" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD21F"/><stop offset=".48" stop-color="#FF007F"/><stop offset="1" stop-color="#00D5FF"/></linearGradient>
+  </defs>
+</svg>

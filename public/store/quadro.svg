@@ -1,0 +1,15 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#05070A"/>
+  <rect width="800" height="600" fill="url(#grid)" opacity=".22"/>
+  <circle cx="626" cy="132" r="230" fill="#8B2CFF" opacity=".18"/>
+  <circle cx="164" cy="482" r="230" fill="#FF7A00" opacity=".16"/>
+  <rect x="186" y="112" width="428" height="342" rx="30" fill="#0B0F14" stroke="white" stroke-opacity=".18" stroke-width="12"/>
+  <rect x="230" y="156" width="340" height="254" rx="18" fill="url(#art)"/>
+  <path d="M262 362 346 278l58 58 56-72 82 98" stroke="#05070A" stroke-opacity=".7" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="336" cy="224" r="30" fill="#FFD21F"/>
+  <text x="400" y="526" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="800">Quadro Personalizado</text>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0v48" stroke="white" stroke-opacity=".18"/></pattern>
+    <linearGradient id="art" x1="230" x2="570" y1="156" y2="410" gradientUnits="userSpaceOnUse"><stop stop-color="#00D5FF"/><stop offset=".52" stop-color="#FF007F"/><stop offset="1" stop-color="#FFD21F"/></linearGradient>
+  </defs>
+</svg>

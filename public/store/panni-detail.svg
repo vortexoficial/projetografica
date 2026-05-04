@@ -1,0 +1,15 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#05070A"/>
+  <rect width="800" height="600" fill="url(#grid)" opacity=".28"/>
+  <circle cx="160" cy="120" r="230" fill="#FFD21F" opacity=".14"/>
+  <circle cx="645" cy="470" r="260" fill="#00D5FF" opacity=".14"/>
+  <circle cx="610" cy="126" r="180" fill="#FF007F" opacity=".16"/>
+  <rect x="150" y="134" width="500" height="332" rx="34" fill="rgba(255,255,255,.055)" stroke="white" stroke-opacity=".14" stroke-width="4"/>
+  <path d="M210 250h380M210 310h260M210 370h330" stroke="url(#brand)" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="580" cy="360" r="42" fill="#FFD21F"/>
+  <text x="400" y="528" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="800">Acabamento Panni</text>
+  <defs>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0v50" stroke="white" stroke-opacity=".18"/></pattern>
+    <linearGradient id="brand" x1="210" x2="590" y1="310" y2="310" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD21F"/><stop offset=".34" stop-color="#FF7A00"/><stop offset=".68" stop-color="#FF007F"/><stop offset="1" stop-color="#00D5FF"/></linearGradient>
+  </defs>
+</svg>

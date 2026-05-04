@@ -1,0 +1,16 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#06080C"/>
+  <rect width="800" height="600" fill="url(#grid)" opacity=".24"/>
+  <circle cx="650" cy="130" r="210" fill="#00D5FF" opacity=".18"/>
+  <circle cx="172" cy="470" r="250" fill="#FF7A00" opacity=".18"/>
+  <rect x="168" y="132" width="464" height="314" rx="30" fill="url(#panel)" stroke="white" stroke-opacity=".18" stroke-width="6"/>
+  <rect x="214" y="178" width="372" height="222" rx="18" fill="#0B0F14" stroke="#FFD21F" stroke-opacity=".7" stroke-width="5"/>
+  <path d="M248 244h304M248 302h210" stroke="url(#brand)" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="536" cy="336" r="34" fill="#FF007F"/>
+  <text x="400" y="520" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="800">Placa Decorativa PVC</text>
+  <defs>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0v44" stroke="white" stroke-opacity=".2"/></pattern>
+    <linearGradient id="panel" x1="168" x2="632" y1="132" y2="446" gradientUnits="userSpaceOnUse"><stop stop-color="#1A2230"/><stop offset="1" stop-color="#111720"/></linearGradient>
+    <linearGradient id="brand" x1="248" x2="552" y1="244" y2="244" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD21F"/><stop offset=".52" stop-color="#FF007F"/><stop offset="1" stop-color="#00D5FF"/></linearGradient>
+  </defs>
+</svg>
