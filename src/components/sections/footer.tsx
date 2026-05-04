@@ -160,7 +160,7 @@ export function Footer() {
                     style={{ color: "var(--text-muted)" }}
                   >
                     <Phone size={15} className="mt-0.5 shrink-0" style={{ color: "var(--yellow)" }} />
-                    +55 11 95857-5089
+                    00 00000-0000
                   </a>
                 </li>
                 <li>
