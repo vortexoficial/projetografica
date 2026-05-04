@@ -1,5 +1,3 @@
-export const WHATSAPP_PHONE = "5511958575089";
-
 export type QuoteFieldType = "text" | "textarea" | "customDropdown";
 
 export type QuoteField = {
@@ -326,7 +324,7 @@ export function buildWhatsAppQuoteMessage(values: QuoteFormValues, dynamicFields
     .join("\n");
 
   return [
-    "Olá, vim pelo site da Gráfica Panni e gostaria de solicitar um orçamento.",
+    "Olá, vim pelo site e gostaria de solicitar um orçamento.",
     "",
     `Serviço: ${values.service}`,
     `Nome: ${values.customerName}`,

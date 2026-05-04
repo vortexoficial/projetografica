@@ -54,7 +54,7 @@ export function SiteFloatingActions() {
           target="_blank"
           rel="noopener noreferrer"
           className="floating-widget__button floating-widget__button--whatsapp"
-          aria-label="Chamar a Gráfica Panni no WhatsApp"
+          aria-label="Chamar atendimento"
         >
           <WhatsAppIcon width={22} height={22} />
         </a>

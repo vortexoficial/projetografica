@@ -39,7 +39,7 @@ export function WhyUs() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="site-heading text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold mt-3"
             style={{ color: "var(--text-primary)" }}>
-            Por que escolher a Gráfica Panni?
+            Por que escolher esse atendimento?
           </motion.h2>
         </div>
 

@@ -42,7 +42,7 @@ export function Institutional() {
           style={{ color: "var(--text-secondary)" }}
         >
           A comunicação visual certa valoriza sua empresa, atrai olhares e transmite
-          confiança. Na Gráfica Panni, cada projeto é feito para representar bem o
+          confiança. Cada projeto é feito para representar bem o
           seu negócio, seja em um simples cartão de visita ou em uma fachada completa.
         </motion.p>
 

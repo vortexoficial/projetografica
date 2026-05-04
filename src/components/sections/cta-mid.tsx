@@ -52,7 +52,7 @@ export function CtaMid() {
           initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.6, delay: 0.35 }}
           className="site-copy text-base md:text-lg mb-7 md:mb-10" style={{ color: "var(--text-secondary)" }}>
-          Fale agora com a Gráfica Panni e receba um atendimento rápido para tirar sua ideia do papel.
+          Fale com o atendimento e receba um retorno rápido para tirar sua ideia do papel.
         </motion.p>
 
         <motion.div initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}}

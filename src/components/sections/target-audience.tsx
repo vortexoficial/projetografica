@@ -197,7 +197,7 @@ export function TargetAudience() {
               className="site-eyebrow text-xs font-semibold uppercase"
               style={{ color: "var(--text-muted)" }}
             >
-              Para quem é a Gráfica Panni?
+              Para quem é?
             </motion.span>
             <motion.h2
               initial={{ opacity: 0, y: 18 }}

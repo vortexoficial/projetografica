@@ -40,7 +40,7 @@ export function SiteLoader() {
     <div
       className={`site-loader${phase === "leaving" ? " site-loader--leaving" : ""}`}
       role="status"
-      aria-label="Carregando Gráfica Panni"
+      aria-label="Carregando site"
     >
       <LoaderCircle className="site-loader__icon" size={38} strokeWidth={2.4} aria-hidden="true" />
     </div>

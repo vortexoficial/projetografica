@@ -68,7 +68,7 @@ export function Navbar() {
               router.push("/");
             }}
           >
-            <Image src="/logo.webp" alt="Gráfica Panni" width={132} height={56}
+            <Image src="/logo.webp" alt="Logo" width={132} height={56}
               className="h-10 md:h-14 w-auto object-contain" priority />
           </motion.div>
 

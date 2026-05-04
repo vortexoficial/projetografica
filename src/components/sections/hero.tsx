@@ -98,7 +98,7 @@ export function Hero() {
           className="hero-copy text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-8 sm:mb-10 leading-relaxed"
           style={{ color: "var(--text-secondary)" }}
         >
-          Na Gráfica Panni, transformamos ideias em materiais gráficos que chamam
+          Transformamos ideias em materiais gráficos que chamam
           atenção, fortalecem sua identidade e ajudam o seu negócio a vender mais.
         </motion.p>
 

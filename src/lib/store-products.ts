@@ -1,5 +1,3 @@
-export const STORE_WHATSAPP_NUMBER = "5511958575089";
-
 export const storeCategories = [
   "Todos",
   "Canecas",
@@ -45,9 +43,9 @@ const productDemoPhotos = {
 
 export const storeProducts: StoreProduct[] = [
   {
-    id: "caneca-personalizada-panni",
-    slug: "caneca-personalizada-panni",
-    name: "Caneca Personalizada Panni",
+    id: "caneca-personalizada",
+    slug: "caneca-personalizada",
+    name: "Caneca Personalizada",
     category: "Canecas",
     shortDescription: "Caneca criativa para presentes, empresas e datas especiais.",
     description:
@@ -255,7 +253,7 @@ export function getFeaturedProducts() {
 }
 
 export function buildProductWhatsAppMessage(product: StoreProduct) {
-  return `Olá, vim pelo site da Gráfica Panni e tenho interesse em um produto da Loja da Panni.
+  return `Olá, vim pelo site e tenho interesse em um produto da loja.
 
 Produto: ${product.name}
 Categoria: ${product.category}

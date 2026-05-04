@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
-import { ArrowUpRight, MapPin, MessageCircle, Phone, Printer, Sparkles } from "lucide-react";
+import { ArrowUpRight, MessageCircle, Phone, Printer, Sparkles } from "lucide-react";
 import { InstagramIcon } from "@/components/icons/instagram-icon";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,15 +9,13 @@ import { useQuoteModal } from "@/components/quote/quote-modal-provider";
 
 const WHATSAPP = "#";
 const INSTAGRAM = "#";
-const FUTURA_DESIGN = "#";
-
 const navLinks = [
   { label: "Sobre", href: "#sobre" },
   { label: "Serviços", href: "#servicos" },
   { label: "Diferenciais", href: "#diferenciais" },
   { label: "Processo", href: "#processo" },
   { label: "Portfólio", href: "#portfolio" },
-  { label: "Loja da Panni", href: "/loja" },
+  { label: "Loja", href: "/loja" },
 ];
 
 const services = [
@@ -53,7 +51,7 @@ export function Footer() {
             <div>
               <Image
                 src="/logo.webp"
-                alt="Gráfica Panni"
+                alt="Logo"
                 width={154}
                 height={64}
                 className="mb-5 h-12 w-auto object-contain md:h-14"
@@ -172,12 +170,8 @@ export function Footer() {
                     style={{ color: "var(--text-muted)" }}
                   >
                     <InstagramIcon width={15} height={15} className="mt-0.5 shrink-0" style={{ color: "var(--magenta)" }} />
-                    @graficapanni
+                    @suagrafica
                   </a>
-                </li>
-                <li className="flex items-start gap-2 text-sm" style={{ color: "var(--text-muted)" }}>
-                  <MapPin size={15} className="mt-0.5 shrink-0" style={{ color: "var(--cyan)" }} />
-                  Av. Miguel Achiole da Fonseca, 1411B, São Paulo, Brasil
                 </li>
               </ul>
             </div>
@@ -185,7 +179,7 @@ export function Footer() {
 
           <div className="flex flex-col items-center justify-between gap-3 pt-6 text-center md:flex-row md:text-left">
             <p className="text-xs" style={{ color: "rgba(154,164,178,0.68)" }}>
-              © {new Date().getFullYear()} Gráfica Panni. Todos os direitos reservados.
+              © {new Date().getFullYear()} Sua Marca. Todos os direitos reservados.
             </p>
             <p className="text-xs" style={{ color: "rgba(154,164,178,0.48)" }}>
               Gráfica e Comunicação Visual em São Paulo, SP
@@ -194,21 +188,6 @@ export function Footer() {
         </div>
       </footer>
 
-      <div
-        className="px-4 py-3 text-center"
-        style={{ backgroundColor: "#010203", borderTop: "1px solid rgba(255,255,255,0.06)" }}
-      >
-        <a
-          href={FUTURA_DESIGN}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-1.5 text-[0.7rem] font-semibold uppercase tracking-[0.18em] transition-opacity hover:opacity-80"
-          style={{ color: "rgba(216,222,233,0.68)" }}
-        >
-          Desenvolvido por <span className="text-gradient-main">FUTURADESIGN</span>
-          <ArrowUpRight size={12} />
-        </a>
-      </div>
     </>
   );
 }

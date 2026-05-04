@@ -26,13 +26,13 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 
   if (!product) {
     return {
-      title: "Produto não encontrado | Loja da Panni",
-      description: "Produto não encontrado na Loja da Panni.",
+      title: "Produto não encontrado | Loja",
+      description: "Produto não encontrado na loja.",
     };
   }
 
   return {
-    title: `${product.name} | Loja da Panni`,
+    title: `${product.name} | Loja`,
     description: product.shortDescription,
     alternates: {
       canonical: `/loja/${product.slug}`,

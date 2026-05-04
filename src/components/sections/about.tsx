@@ -37,14 +37,14 @@ export function About() {
             className="site-heading text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold mt-3 mb-6 leading-snug"
             style={{ color: "var(--text-primary)" }}>
             Sobre a{" "}
-            <span className="text-gradient-main">Gráfica Panni</span>
+            <span className="text-gradient-main">nossa produção</span>
           </motion.h2>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="site-copy space-y-3 md:space-y-4 leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-            <p>A Gráfica Panni é especializada em impressão gráfica e comunicação
+            <p>Somos especializados em impressão gráfica e comunicação
               visual, oferecendo soluções completas para quem deseja divulgar,
               sinalizar, apresentar ou valorizar uma marca.</p>
             <p>Atendemos empresas, profissionais autônomos, lojas, eventos e negócios
@@ -64,8 +64,8 @@ export function About() {
             className="relative w-full h-44 sm:h-52 rounded-lg md:rounded-2xl overflow-hidden"
             style={{ border: "1px solid var(--border-soft)" }}>
             <Image
-              src="/grafica-comunicacao-visual.webp"
-              alt="Gráfica Panni" fill className="object-cover"
+              src="/comunicacao-visual.webp"
+              alt="Comunicação visual" fill className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw" />
             <div className="absolute inset-0" style={{ background: "rgba(0,0,0,0.35)" }} />
             <div className="absolute bottom-4 left-4">

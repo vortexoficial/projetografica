@@ -105,7 +105,7 @@ export function StoreSection() {
               className="site-heading mt-4 text-2xl font-extrabold leading-tight sm:text-3xl md:text-4xl"
               style={{ color: "var(--text-primary)" }}
             >
-              Loja da Panni
+              Loja
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 14 }}
@@ -114,7 +114,7 @@ export function StoreSection() {
               className="site-copy mt-3 max-w-2xl text-sm leading-relaxed"
               style={{ color: "var(--text-muted)" }}
             >
-              Produtos criativos à pronta entrega, personalizados com qualidade e o toque visual da Panni.
+              Produtos criativos à pronta entrega, personalizados com qualidade e toque visual sob medida.
             </motion.p>
           </div>
 

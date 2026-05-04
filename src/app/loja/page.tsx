@@ -8,9 +8,9 @@ import { QuoteModalProvider } from "@/components/quote/quote-modal-provider";
 import { buildStoreWhatsAppUrl, storeProducts } from "@/lib/store-products";
 
 export const metadata: Metadata = {
-  title: "Loja da Panni | Produtos personalizados à pronta entrega",
+  title: "Loja | Produtos personalizados à pronta entrega",
   description:
-    "Confira produtos personalizados, brindes, placas, canecas e materiais criativos à pronta entrega na Gráfica Panni.",
+    "Confira produtos personalizados, brindes, placas, canecas e materiais criativos à pronta entrega.",
   alternates: {
     canonical: "/loja",
   },
@@ -59,7 +59,7 @@ export default function StorePage() {
                 className="site-heading mt-5 text-4xl font-extrabold leading-tight sm:text-5xl md:text-6xl"
                 style={{ color: "var(--text-primary)" }}
               >
-                Loja da Panni
+                Loja
               </h1>
               <p
                 className="site-copy mt-5 max-w-2xl text-base leading-relaxed md:text-lg"
@@ -75,7 +75,7 @@ export default function StorePage() {
                   className="btn-gradient inline-flex min-h-12 items-center justify-center gap-2 rounded-lg px-5 text-sm font-bold"
                 >
                   <MessageCircle size={18} />
-                  Falar com a Panni
+                  Falar com atendimento
                 </a>
                 <Link
                   href="/#servicos"

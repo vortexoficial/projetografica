@@ -27,7 +27,7 @@ export function HighlightStrip() {
       {/* Palavra decorativa */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden" aria-hidden>
         <span className="text-[7rem] sm:text-[14rem] md:text-[18rem] font-black leading-none whitespace-nowrap"
-          style={{ color: "rgba(255,255,255,0.018)" }}>PANNI</span>
+          style={{ color: "rgba(255,255,255,0.018)" }}>PRINT</span>
       </div>
 
       {/* Glow magenta direita */}
